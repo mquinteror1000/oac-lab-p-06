@@ -1,0 +1,19 @@
+|practica6
+a[0] => Mux0.IN5
+a[0] => Mux1.IN5
+a[0] => Mux2.IN5
+a[0] => Mux3.IN5
+a[1] => Mux0.IN4
+a[1] => Mux1.IN4
+a[1] => Mux2.IN4
+a[1] => Mux3.IN4
+e => b.OUTPUTSELECT
+e => b.OUTPUTSELECT
+e => b.OUTPUTSELECT
+e => b.OUTPUTSELECT
+b[0] <= b.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= b.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= b.DB_MAX_OUTPUT_PORT_TYPE
+b[3] <= b.DB_MAX_OUTPUT_PORT_TYPE
+
+
